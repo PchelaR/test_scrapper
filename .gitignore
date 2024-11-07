@@ -1,0 +1,7 @@
+.env
+
+main/output/
+*.json
+
+venv/
+.idea/
