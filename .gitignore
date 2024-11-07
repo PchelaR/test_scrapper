@@ -1,6 +1,5 @@
 .env
 
-main/output/
 *.json
 
 venv/
