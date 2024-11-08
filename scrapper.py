@@ -63,6 +63,7 @@ def scrape_all_page():
 
         all_quotes.extend(page_quotes)
 
+        os.makedirs('output', exist_ok=True)
         with open('output/scrape_result.json', 'w', encoding='UTF-8') as json_file:
             json.dump(all_quotes, json_file, ensure_ascii=False, indent=4)
 
